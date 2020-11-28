@@ -1,6 +1,6 @@
 # Cloud Run - Step by step
 
-Here you have how to deploy a in-docker website (using Flask in this example) on [Cloud Round](https://cloud.google.com/run) in a few clicks with multi-branch continous build and deployment in place.
+Here you have how to deploy a in-docker website (using Flask in this example) on [Cloud Round](https://cloud.google.com/run) in a few clicks with multi-branch continuous build and deployment in place.
 
 1. Create a project on [GitHub](github.com) (no need to be public)
 
@@ -19,7 +19,7 @@ Here you have how to deploy a in-docker website (using Flask in this example) on
    1. `cloudbuild.yaml`
       ```yaml
       substitutions:
-           # Adapt values below ccording to your region and project id
+           # Adapt values below according to your region and project id
            _REGION:       your-preferred-region
            _PROJECT_ID:   your-project-id
 
